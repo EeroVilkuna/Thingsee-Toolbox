@@ -106,7 +106,7 @@ class _AddStackViewState extends State<AddStackView> {
     try {
       //ECB, 256bits
       final key =
-          encryptionLib.Key.fromUtf8("QzW6bFHywU9019sSWEtoym181QwSPpu7");
+          encryptionLib.Key.fromUtf8("ADD YOUR KEY HERE");
       final iv = encryptionLib.IV.fromLength(16);
       final encrypter = encryptionLib.Encrypter(
           encryptionLib.AES(key, mode: encryptionLib.AESMode.ecb)); //256bit
